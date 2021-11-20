@@ -1,0 +1,78 @@
+/*
+
+.parent-menu{
+	background-color: aqua;
+	display: flex;
+	padding: 5px;
+}
+*/
+/*
+.inner-menu-left{
+	display: flex;
+	gap:20px;
+	flex-grow: 1;
+}
+.inner-menu-right{
+	display: flex;
+	gap:20px;
+	
+}
+.inner-menu-left img{
+	width: 30px;
+	height: 30px;
+}
+.image-tik{
+	align-self: center;
+}
+.inbox.active{
+	background-color: red;
+}
+*/
+
+
+.parent-icons{
+	
+	border: solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 96vh;
+}
+.calender-icon , .dashboard-icon , .SMS-icon{
+	
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	border-bottom: 1px solid gray;
+	padding: 10px;
+}
+
+.SMS-icon{
+	border-bottom: none !important;
+}
+
+.align{
+	align-self: center;
+}
+
+.bi-speedometer2{
+	
+	flex-grow: 1;
+}
+
+.bi-speedometer2 ,.bi-envelope ,.bi-calendar3 {
+	font-size: 50px;
+	line-height: 0;
+	color: gray;
+}
+p{
+	color: gray;
+}
+
+
+
+
+
+
+
